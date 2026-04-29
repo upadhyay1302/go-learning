@@ -1,0 +1,11 @@
+# binaries
+*.exe
+*.out
+*.test
+
+# Go workspace files
+go.work
+go.work.sum
+
+# macOS
+.DS_Store
