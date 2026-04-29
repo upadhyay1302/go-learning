@@ -36,5 +36,15 @@ func main(){
 	sort.Ints(highScores)
 	fmt.Println(highScores)
 
+	//Deleting a index from a slice
+	var courses = []string{"Reactjs", "Javascript", "Swift", "Python", "Ruby"}
+
+	var index int = 2
+
+	courses = append(courses[:index], courses[index+1:]...)
+
+
+	fmt.Println(courses)
+
 
 }
